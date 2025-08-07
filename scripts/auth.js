@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Success - redirect to login
-        window.location.href = 'login.html?registered=true';
+        window.location.href = 'index.html?registered=true';
 
       } catch (err) {
         showError(err.message);
